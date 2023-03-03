@@ -1,0 +1,25 @@
+
+
+/* navbar */
+#top-nav {
+  padding-right: 10px;
+}
+
+@media (min-width: 768px) {
+  #top-nav {
+    text-align: left;
+  }
+}
+
+a {
+  color: #5A5A5A;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #808080;
+}
+
+.fa-brands {
+  padding: 10px;
+}
