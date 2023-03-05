@@ -21,11 +21,24 @@ a:hover {
 h5 {
   color: #808080;
   line-height: 1.5;
+  font-size: 1.1em;
 }
 
 #intro {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+img  {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  img {
+    display: inline;
+    width: 100%;
+    object-fit: cover;
+  }
 }
 
 /* portfolio */
